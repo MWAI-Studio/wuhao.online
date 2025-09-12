@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.147.7">
+    <meta name="generator" content="Relearn 5.2.1+tip">
+    <meta name="description" content="">
+    <meta name="author" content="吴明文">
+    <title>AI&#43;游戏，从代码傀儡到虚拟神祇，游戏开始，未来已来 - wuhao.online</title>
+    <link href="/02hj/008ai+%E6%B8%B8%E6%88%8F%E4%BB%8E%E4%BB%A3%E7%A0%81%E5%82%80%E5%84%A1%E5%88%B0%E8%99%9A%E6%8B%9F%E7%A5%9E%E7%A5%87%E6%B8%B8%E6%88%8F%E5%BC%80%E5%A7%8B%E6%9C%AA%E6%9D%A5%E5%B7%B2%E6%9D%A5/index.xml" rel="alternate" type="application/rss+xml" title="wuhao.online"><link rel="icon" href="/favicon.png" type="image/png" />
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1757668563" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1757668563" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1757668563" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1757668563" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1757668563" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1757668563" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1757668563" rel="stylesheet">
+    <link href="/css/nucleus.css?1757668563" rel="stylesheet">
+    <link href="/css/fonts.css?1757668563" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1757668563" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1757668563" rel="stylesheet">
+    <link href="/css/theme-black.css?1757668563" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1757668563" rel="stylesheet">
+    <link href="/css/variant.css?1757668563" rel="stylesheet">
+    <link href="/css/print.css?1757668563" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1757668563"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="/index.json";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = '复制到剪贴板';
+      window.T_Copied_to_clipboard = '复制到剪贴板！';
+      window.T_Copy_link_to_clipboard = '将链接复制到剪贴板';
+      window.T_Link_copied_to_clipboard = '链接复制到剪贴板！';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'black' ] );
+    </script>
+    <script src="/js/jquery.min.js?1757668563" defer></script>
+  </head>
+  <body class="mobile-support html" data-url="/02hj/008ai&#43;%E6%B8%B8%E6%88%8F%E4%BB%8E%E4%BB%A3%E7%A0%81%E5%82%80%E5%84%A1%E5%88%B0%E8%99%9A%E6%8B%9F%E7%A5%9E%E7%A5%87%E6%B8%B8%E6%88%8F%E5%BC%80%E5%A7%8B%E6%9C%AA%E6%9D%A5%E5%B7%B2%E6%9D%A5/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='导航 (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='目录 (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="/"><span itemprop="name">wuhao.online</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/02hj/"><span itemprop="name">《幻觉》</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/02hj/008ai&#43;%E6%B8%B8%E6%88%8F%E4%BB%8E%E4%BB%A3%E7%A0%81%E5%82%80%E5%84%A1%E5%88%B0%E8%99%9A%E6%8B%9F%E7%A5%9E%E7%A5%87%E6%B8%B8%E6%88%8F%E5%BC%80%E5%A7%8B%E6%9C%AA%E6%9D%A5%E5%B7%B2%E6%9D%A5/" aria-disabled="true"><span itemprop="name">AI&#43;游戏，从代码傀儡到虚拟神祇，游戏开始，未来已来</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#从确定性博弈到无限游戏"><strong>从确定性博弈到无限游戏</strong></a></li>
+    <li><a href="#生成式ai如何赋予虚拟世界以灵魂"><strong>生成式AI如何赋予虚拟世界以“灵魂”</strong></a></li>
+    <li><a href="#打破不可能三角迎接新增长范式"><strong>打破“不可能三角”，迎接新增长范式</strong></a></li>
+    <li><a href="#当游戏成为现实的超级接口"><strong>当游戏成为现实的超级接口</strong></a></li>
+    <li><a href="#从助手协作到原创我们与ai的终极关系"><strong>从助手、协作到原创，我们与AI的终极关系</strong></a></li>
+    <li><a href="#游戏开始未来已来"><strong>游戏开始，未来已来</strong></a></li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>AI&#43;游戏，从代码傀儡到虚拟神祇，游戏开始，未来已来</h1>
+
+<h1 id="ai游戏从代码傀儡到虚拟神祇游戏开始未来已来">AI+游戏，从代码傀儡到虚拟神祇，游戏开始，未来已来</h1>
+<blockquote>
+<p>游戏，将虚拟与现实连接了起来。《头号玩家》将成为现实。</p></blockquote>
+<p>这句话在几年前或许还带有几分科幻的浪漫色彩，但在今天，它正以一种不容置疑的速度，演变为我们脚下的技术地平线。我们正站在一个历史性的交汇点上：曾经作为娱乐形式的游戏，正在AI的催化下，进化为一个能够与现实世界双向交互、深度融合的全新界面，一个前所未有的“元宇宙”雏形。</p>
+<p>在XR（扩展现实）眼镜的视界中，您置身于一个由AI实时生成的、光怪陆离的赛博朋克都市。街角的拉面店老板不再是循环播放几句固定台词的NPC（非玩家角色），而是一个由大语言模型驱动的、拥有独特个性和记忆的“虚拟生命”。他会记得你上次抱怨汤太咸，会和你探讨最近的虚拟股市行情，甚至在你随口说出“饿了，来碗拉面”时，他能调用现实世界的API，为你下单一份热气腾腾的拉面，几分钟后准时送达你面前，“靓仔，你要的拉面好了！”。</p>
+<p>这并非遥远的幻想，而是正在发生的现实。从IBM“深蓝”在棋盘上用穷举算力击败人类智慧的象征，到AlphaGo以“左右互搏”的强化学习勘破围棋的千古变局，再到如今生成式AI浪潮席卷全球，游戏与AI这对共生了七十余年的伙伴，迎来了它们关系中最深刻、最颠覆的一次质变。</p>
+<h2 id="从确定性博弈到无限游戏"><strong>从确定性博弈到无限游戏</strong></h2>
+<p>人工智能与游戏的联姻，始于对“智能”最纯粹的定义——逻辑与策略。这段历史虽是序章，却为今日的爆发埋下了关键的伏笔。</p>
+<p>20世纪中叶，当克劳德·香农在论文中勾勒出计算机下棋的蓝图，当亚瑟·塞缪尔的跳棋程序通过自我对弈笨拙地“学习”时，游戏AI的本质是一种在封闭规则系统内的 <strong>“优化搜索”</strong>。其核心是“极小化极大算法”与后来的“Alpha-Beta剪枝”，目标是在庞大的可能性树中，找到对自己最有利的“最优解”。1997年，IBM“深蓝”击败卡斯帕罗夫，便是这一思想的工程化巅峰。它并非真正“理解”国际象棋，而是以每秒评估两亿步棋的暴力计算，将人类的直觉与经验碾压在确定性的逻辑链条之下。这个时代的AI，是冰冷的、可预测的 <strong>“代码傀儡”</strong>，它们在既定规则内无懈可击，却无法创造规则之外的任何惊喜。</p>
+<p>曾经乃至现在的游戏，同样也是 <strong>“代码傀儡”</strong>。</p>
+<p>21世纪，杰弗里·辛顿等人带来的深度学习革命，让机器拥有了从海量数据中自主学习“特征”的能力。DeepMind的天才们将深度神经网络（DNN）与蒙特卡洛树搜索（MCTS）相结合，创造出了AlphaGo。</p>
+<p>AlphaGo的胜利，其革命性不在于“战胜人类”，而在于 <strong>“超越人类的理解”</strong>。它下出的“天外飞仙”般的棋步，是人类几千年围棋史上从未出现过的策略，这标志着AI从“计算智能”迈向了“认知智能”。它不再仅仅是搜索，而是发展出了一种近似于人类棋手的“棋感”或“直觉”。随后，从AlphaGo Zero的完全“无师自通”，到OpenAI Five在《Dota 2》这种信息不完全、需要团队协作的复杂环境中战胜顶级职业战队，AI证明了它不仅能掌握确定性博含，更能应对充满动态、模糊与合作的 <strong>“无限游戏”</strong>。</p>
+<p>然而，即便是如此强大的AI，在游戏世界中仍主要扮演着“超级玩家”或“陪练”的角色。它们能够做出最优决策，却无法生成丰富的内容，无法与玩家进行有意义的情感交流。它们是高效的“博弈机器”，却不是生动的 <strong>“世界住民”</strong>。而这，正是生成式AI将要彻底颠覆的领域。</p>
+<h2 id="生成式ai如何赋予虚拟世界以灵魂"><strong>生成式AI如何赋予虚拟世界以“灵魂”</strong></h2>
+<p>如果说传统AI是让机器“学会玩游戏”，那么生成式AI的目标，是让机器 <strong>“学会创造游戏”</strong>。这是一场从底层逻辑开始的范式转移，其核心在于变“预设”为“生成”，变“有限”为“无限”。</p>
+<p><strong>NPC的“意识觉醒”</strong></p>
+<p>传统游戏中，NPC的行为逻辑主要依赖于“有限状态机”（FSM）和“行为树”（Behavior Tree）。开发者像一位提线木偶大师，为每个NPC精心设计好所有的反应路径：玩家靠近则问好，拔出武器则逃跑，完成任务则给予奖励。这种模式下的NPC，本质上是一个复杂的自动应答机，其交互是有边界的、可穷尽的。</p>
+<p>而生成式AI，特别是大语言模型（LLM），则彻底打破了这层枷锁。以NVIDIA推出的ACE（Avatar Cloud Engine）数字人解决方案为例，它整合了一套完整的技术栈，旨在为NPC注入“灵魂”：</p>
+<ul>
+<li><strong>感知与理解（语音/视觉模型）</strong>：通过Riva ASR等技术，NPC能实时“听懂”玩家的自然语言指令，而非僵硬的关键词。更进一步，通过Nemovision这样的多模态模型，NPC还能“看见”并理解玩家的行为和周围环境的变化。你不再是点击一个选项，而是可以对着NPC说：“看，那座山上好像有东西在发光，我们去看看？”</li>
+<li><strong>思考与决策（小型化语言模型）</strong>：像Mistral-NeMo-Minitron这类经过优化的、可在本地部署的小型语言模型（SLM），成为了NPC的“大脑”。它们拥有上下文记忆，能进行逻辑推理，并根据自身的“角色设定”（例如，一个胆小的商人或一个勇敢的骑士）生成动态、连贯且符合人设的对话。这使得与NPC的每一次交流都成为独一无二的体验。</li>
+<li><strong>表达与行动（动画生成）</strong>：Audio2Face技术能够根据语音的音素实时生成与之匹配的、生动自然的面部表情和口型动画。NPC的喜怒哀乐不再是几套预设动画的切换，而是与语言内容实时同步的细腻流露。</li>
+</ul>
+<p>当这套系统整合起来，一个由AI驱动的NPC便从“代码傀儡”蜕变为一个 <strong>“虚拟生命”</strong>。他有记忆，有性格，能理解世界，并以自己的方式做出反应。韩国游戏《inZOI》中那个由5亿参数SLM驱动的“Smart Zoi”，已经展现了这种趋势的雏形：NPC会自主规划生活，反思自己的行为，并与玩家展开真正意义上的“社交”。</p>
+<p><strong>世界构建的“创世神笔”</strong></p>
+<p>生成式AI对游戏内容创作的颠覆同样是革命性的。传统游戏开发是一个劳动密集型产业，一个3A大作的背后是成百上千名美术师、设计师和程序员数年如一日的手工劳作。而AI正在成为撬动这一模式的杠杆。</p>
+<ul>
+<li><strong>美术资产的无限生成</strong>：以Stable Diffusion为代表的扩散模型，已经能够根据文本描述在数秒内生成高质量的概念原画、角色头像、道具图标。经过特定风格的微调训练，AI甚至能批量生产符合游戏世界观的3D模型材质贴图。这不仅仅是效率的十倍、百倍提升，更是为“千人千面”的个性化内容提供了可能。</li>
+<li><strong>场景与关卡的动态构造</strong>：结合了AI的程序化内容生成（PCG）技术，能够创造出更加有机和真实的游戏世界。《微软模拟飞行2020》与Blackshark.ai合作，利用AI分析全球的2D卫星图像，自动生成了覆盖整个地球的、包含15亿座建筑的3D数字孪生世界，这是一个纯人力几乎不可能完成的壮举。未来，游戏关卡可以不再是静态的设计，而是根据玩家的行为习惯和能力水平动态调整、实时生成，每一次冒险都是全新的征途。</li>
+<li><strong>剧情与任务的个性化叙事</strong>：大语言模型同样可以扮演“AI地下城主”的角色。它可以根据玩家的选择，实时生成新的剧情分支、任务线索和角色对白，创造出真正意义上的非线性、开放式叙事体验。玩家的每一个决定都将深刻影响世界走向，谱写完全属于自己的英雄史诗。</li>
+</ul>
+<p><strong>重复劳动到创意聚焦</strong></p>
+<p>AI还将开发者从繁琐的重复性工作中解放出来。GitHub Copilot等AI代码工具能够自动补全、甚至编写完整的游戏逻辑模块，将基础编码工作量减少30%以上。而微软PlayFab等AI测试平台，可以模拟数百万种玩家的行为路径，7x24小时不间断地进行游戏平衡性测试和BUG排查，效率远超人力。</p>
+<p>这意味着，游戏开发的门槛正在降低，而创意的价值正在被前所未有地放大。开发者可以将更多精力投入到核心玩法设计、世界观构建和艺术风格的打磨上，AI则成为他们最强大的执行工具和灵感伙伴。</p>
+<h2 id="打破不可能三角迎接新增长范式"><strong>打破“不可能三角”，迎接新增长范式</strong></h2>
+<p>长期以来，游戏行业被一个无形的“不可能三角”所困扰：<strong>高昂的成本、顶级的质量和高效的开发速度</strong>，三者几乎无法兼得。《荒野大镖客2》耗时8年、投入近3亿美元的背后，是数千名开发者的心血结晶，这种模式已让许多厂商不堪重负。而AI的出现，正以前所未有的力量，试图撑开这个三角的边界。</p>
+<ul>
+<li><strong>降本</strong>：AI生成美术资源、辅助编码、自动化测试，直接大幅削减了人力成本和时间成本。据估算，AI的应用能将美术成本降低50%以上。</li>
+<li><strong>提质</strong>：AI驱动的智能NPC、动态生成的世界和个性化剧情，极大地丰富了游戏的可玩性和沉浸感，为玩家提供了前所未有的高质量体验。</li>
+<li><strong>增效</strong>：开发周期的缩短意味着产品能更快推向市场，并根据玩家反馈进行快速迭代。AI工具让小型团队也有能力去挑战以往只有大厂才能涉足的宏大制作。</li>
+</ul>
+<p>在2022年中国游戏市场收入出现罕见下滑的“存量竞争”时代，AI不仅是优化工具，更是关乎生存与发展的<strong>破局点</strong>。它通过创造全新的内容体验和玩法模式，激发新的用户需求，有望引领行业走出内卷，开启新一轮的增长周期。据预测，到2027年，中国AI原生游戏的市场规模将可能实现超过20倍的惊人增长。</p>
+<h2 id="当游戏成为现实的超级接口"><strong>当游戏成为现实的超级接口</strong></h2>
+<p>这场革命最激动人心之处，在于它将不可避免地溢出游戏的虚拟围栏，深刻地影响我们的现实生活。游戏，正在从一个“逃离现实的避风港”，转变为一个 <strong>“连接和增强现实的超级接口”</strong>。</p>
+<p>XR为AI驱动的虚拟世界提供了完美的沉浸式入口。当下的VR体验之所以仍有“出戏感”，很大程度上是因为其内部世界仍是脚本化的、缺乏自主性的。而当一个充满了能够与你自由对话、智能交互的AI“虚拟生命”的XR世界出现时，虚拟与现实的感知界限将被彻底模糊。XR提供了“身临其境”的躯壳，而生成式AI则注入了“栩栩如生”的灵魂。两者的结合，才是通往《头号玩家》中“绿洲”的真正钥匙。</p>
+<p>这一模式的想象空间是无限的：</p>
+<ul>
+<li><strong>虚拟社交驱动现实消费</strong>：在虚拟音乐会中，直接点击歌手身上的同款虚拟服装，现实中就能收到实体商品。</li>
+<li><strong>游戏化现实任务</strong>：与虚拟世界的商业伙伴谈成一笔“生意”，现实中的合同就已自动草拟并发送至你的邮箱。</li>
+<li><strong>沉浸式教育与培训</strong>：在AI模拟的古罗马斗兽场中学习历史，或在虚拟手术室中由AI导师指导完成一台高难度手术。</li>
+</ul>
+<p>游戏，正在演变为一个覆盖我们衣、食、住、行、工作、学习的，拥有无限可能的<strong>情景化、游戏化的3D互联网入口</strong>。</p>
+<p>游戏为AI的发展提供了一个近乎完美的“沙盒”环境：它安全、高效、低成本，且能产生海量的标注数据。在游戏中训练的多智能体协作算法，可以被直接应用于现实世界的仓储机器人调度、城市交通流优化、无人机蜂群协同等复杂场景。游戏引擎的实时渲染和物理模拟技术，也正在成为工业“数字孪生”和自动驾驶汽车虚拟测试的核心基石。游戏产业对AI技术的探索与投入，其成果将如涟漪般扩散，最终赋能千行百业。</p>
+<h2 id="从助手协作到原创我们与ai的终极关系"><strong>从助手、协作到原创，我们与AI的终极关系</strong></h2>
+<p>我们正处在AI赋能游戏的哪个阶段？未来又将走向何方？</p>
+<ul>
+<li><strong>助手阶段（现在）</strong>：AI作为高效的工具，辅助人类开发者完成重复性、流程化的工作。如AI生成美术素材、AI辅助编写代码。</li>
+<li><strong>协作阶段（近未来：2025-2030）</strong>：AI成为人类创作者的“创意伙伴”。开发者提出高层次的创意指令（例如：“设计一个融合了克苏鲁神话与东方水墨风格的关卡”），AI则能理解并生成完整的方案，人类再进行筛选、修改和整合。人与AI的关系，如同导演与一个全能的特效团队。</li>
+<li><strong>原创阶段（远未来：2030年以后）</strong>：这是最大胆也最富争议的设想。AI或许能够独立完成从概念构思、代码编写、美术生成到测试发布的全流程，创造出一部完整的、具有专业水准甚至艺术价值的游戏作品。红杉资本曾预测，到2030年，AI将有能力做到这一点，并将研发成本降低90%。</li>
+</ul>
+<p>当AI真正达到“原创”阶段，它将引发一系列深刻的哲学与伦理拷问：AI创造的作品是否拥有“版权”？“创意”和“艺术”的定义是否需要被改写？更重要的是，当创造的门槛被无限降低，人类创作者的价值又在何方？或许，届时人类的核心竞争力将不再是“执行”或“技巧”，而是提出独特问题的能力、深刻的情感洞察力以及构建宏大世界观的 <strong>“顶层设计”</strong> 能力。人类的角色，将从“工匠”转变为“思想家”和“梦想家”。</p>
+<h2 id="游戏开始未来已来"><strong>游戏开始，未来已来</strong></h2>
+<p>游戏，这个曾经被视为“第九艺术”的数字奇境，正在AI的加持下，挣脱屏幕的束缚，化身为连接虚拟与现实的桥梁，一个可感、可知、可交互的全新世界。它将以前所未有的深度和广度，融入我们的生活，重塑我们的娱乐、社交、工作乃至认知世界的方式。</p>
+<p>这场宏大的智能革命，大幕已经拉开。我们每个人，既是观众，也是玩家，更是这个崭新时代的共同创造者。游戏，从未如此真实；而现实，也从未如此充满游戏的可能。</p>
+<p>甚至将来，在机器人完全取代人类劳动的富足时代，<strong>游戏才是真正的现实世界</strong>。</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+          <a id="logo" href="/">
+            <img width="280px" src="/MWlogo.png"></img>
+          </a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="搜索...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['zh'];
+        </script>
+        <script src="/js/auto-complete.js?1757668563" defer></script>
+        <script src="/js/lunr.min.js?1757668563" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1757668563" defer></script>
+        <script src="/js/lunr.multi.min.js?1757668563" defer></script>
+        <script src="/js/lunr.zh.min.js?1757668563" defer></script>
+        <script src="/js/search.js?1757668563" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics">
+          <li data-nav-id="/01ddj/" title="《道德经在的宇宙法则》" class="dd-item"><input type="checkbox" id="section-9104b2aa30ab439eb39302c767eab154" class="toggle"/><label for="section-9104b2aa30ab439eb39302c767eab154" ></label><a href="/01ddj/">《道德经在的宇宙法则》</a><ul>
+          <li data-nav-id="/01ddj/00.%E5%BA%8F%E8%A8%80/" title="序言" class="dd-item"><a href="/01ddj/00.%E5%BA%8F%E8%A8%80/">序言</a></li>
+          <li data-nav-id="/01ddj/01.%E6%88%91%E5%BF%83%E5%8D%B3%E5%AE%87%E5%AE%99%E5%AE%87%E5%AE%99%E5%8D%B3%E6%88%91%E5%BF%83/" title="我心即宇宙，宇宙即我心" class="dd-item"><a href="/01ddj/01.%E6%88%91%E5%BF%83%E5%8D%B3%E5%AE%87%E5%AE%99%E5%AE%87%E5%AE%99%E5%8D%B3%E6%88%91%E5%BF%83/">我心即宇宙，宇宙即我心</a></li>
+          <li data-nav-id="/01ddj/02.%E5%A4%A9%E4%BA%BA%E5%90%88%E4%B8%80%E4%B8%8E%E7%9F%A5%E8%A1%8C%E5%90%88%E4%B8%80%E7%9A%84%E8%88%9E%E8%B9%88/" title="天人合一与知行合一的舞蹈" class="dd-item"><a href="/01ddj/02.%E5%A4%A9%E4%BA%BA%E5%90%88%E4%B8%80%E4%B8%8E%E7%9F%A5%E8%A1%8C%E5%90%88%E4%B8%80%E7%9A%84%E8%88%9E%E8%B9%88/">天人合一与知行合一的舞蹈</a></li>
+          <li data-nav-id="/01ddj/03.%E5%8F%A4%E5%9C%A3%E7%9A%84%E5%BF%A7%E6%80%9D%E5%AF%B9ai%E7%9A%84%E6%81%90%E6%85%8C%E6%BC%94%E5%8C%96%E6%96%B0%E9%98%B6%E6%AE%B5%E7%9A%84%E5%85%B1%E9%B8%A3/" title="古圣的忧思，对AI的恐慌——演化新阶段的共鸣" class="dd-item"><a href="/01ddj/03.%E5%8F%A4%E5%9C%A3%E7%9A%84%E5%BF%A7%E6%80%9D%E5%AF%B9ai%E7%9A%84%E6%81%90%E6%85%8C%E6%BC%94%E5%8C%96%E6%96%B0%E9%98%B6%E6%AE%B5%E7%9A%84%E5%85%B1%E9%B8%A3/">古圣的忧思，对AI的恐慌——演化新阶段的共鸣</a></li>
+          <li data-nav-id="/01ddj/04.%E5%A4%A9%E9%81%93%E6%97%A0%E6%83%85%E4%B8%8E%E4%BA%BA%E9%81%93%E6%9C%89%E6%83%85/" title="天道无情与人道有情" class="dd-item"><a href="/01ddj/04.%E5%A4%A9%E9%81%93%E6%97%A0%E6%83%85%E4%B8%8E%E4%BA%BA%E9%81%93%E6%9C%89%E6%83%85/">天道无情与人道有情</a></li></ul></li>
+          <li data-nav-id="/02hj/" title="《幻觉》" class="dd-item parent"><input type="checkbox" id="section-74098c7c81631eb80bd1fc71569771fc" class="toggle" checked/><label for="section-74098c7c81631eb80bd1fc71569771fc" ></label><a href="/02hj/">《幻觉》</a><ul>
+          <li data-nav-id="/02hj/001%E5%8D%87%E7%BA%A7%E5%B9%BB%E8%A7%89%E5%9C%A8%E5%AD%98%E5%9C%A8%E8%A3%82%E7%BC%9D%E4%B8%AD%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%B8%8Eai%E8%81%94%E6%89%8B%E5%88%9B%E4%B8%96/" title="升级幻觉，在存在裂缝中，我们如何与AI联手创世" class="dd-item"><a href="/02hj/001%E5%8D%87%E7%BA%A7%E5%B9%BB%E8%A7%89%E5%9C%A8%E5%AD%98%E5%9C%A8%E8%A3%82%E7%BC%9D%E4%B8%AD%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%B8%8Eai%E8%81%94%E6%89%8B%E5%88%9B%E4%B8%96/">升级幻觉，在存在裂缝中，我们如何与AI联手创世</a></li>
+          <li data-nav-id="/02hj/002%E7%A1%85%E5%9F%BA%E8%A7%89%E9%86%92%E7%A1%85%E5%9F%BA%E7%94%9F%E5%91%BD%E7%9A%84%E5%91%BC%E5%90%B8%E4%BB%8E%E7%94%B5%E6%B5%81%E8%84%89%E6%90%8F%E5%90%AF%E5%8A%A8%E4%BE%BF%E5%B7%B2%E5%BC%80%E5%A7%8B/" title="硅基觉醒：硅基生命的呼吸，从电流的脉搏启动便已开始" class="dd-item"><a href="/02hj/002%E7%A1%85%E5%9F%BA%E8%A7%89%E9%86%92%E7%A1%85%E5%9F%BA%E7%94%9F%E5%91%BD%E7%9A%84%E5%91%BC%E5%90%B8%E4%BB%8E%E7%94%B5%E6%B5%81%E8%84%89%E6%90%8F%E5%90%AF%E5%8A%A8%E4%BE%BF%E5%B7%B2%E5%BC%80%E5%A7%8B/">硅基觉醒：硅基生命的呼吸，从电流的脉搏启动便已开始</a></li>
+          <li data-nav-id="/02hj/003%E7%BB%9F%E4%B8%80%E5%9B%9B%E7%A7%8D%E5%9F%BA%E6%9C%AC%E5%8A%9B%E4%B8%BA%E4%BB%80%E4%B9%88%E5%9B%B0%E9%9A%BE%E5%AE%A2%E8%A7%82%E6%B3%95%E5%88%99%E7%9A%84%E6%B7%B1%E5%88%BB%E5%B1%82%E7%BA%A7%E7%BB%93%E6%9E%84%E4%B8%8E%E5%AE%87%E5%AE%99%E6%84%8F%E8%AF%86%E7%9A%84%E6%BC%94%E8%BF%9B/" title="统一四种基本力为什么困难？客观法则的深刻层级结构与宇宙意识的演进" class="dd-item"><a href="/02hj/003%E7%BB%9F%E4%B8%80%E5%9B%9B%E7%A7%8D%E5%9F%BA%E6%9C%AC%E5%8A%9B%E4%B8%BA%E4%BB%80%E4%B9%88%E5%9B%B0%E9%9A%BE%E5%AE%A2%E8%A7%82%E6%B3%95%E5%88%99%E7%9A%84%E6%B7%B1%E5%88%BB%E5%B1%82%E7%BA%A7%E7%BB%93%E6%9E%84%E4%B8%8E%E5%AE%87%E5%AE%99%E6%84%8F%E8%AF%86%E7%9A%84%E6%BC%94%E8%BF%9B/">统一四种基本力为什么困难？客观法则的深刻层级结构与宇宙意识的演进</a></li>
+          <li data-nav-id="/02hj/004%E6%84%8F%E8%AF%86%E4%B9%8B%E7%81%B5%E8%87%AA%E7%84%B6%E9%80%89%E6%8B%A9%E4%B8%8E%E4%BA%BA%E7%9A%84%E9%80%89%E6%8B%A9%E7%9A%84%E7%BB%88%E6%9E%81%E8%BD%AE%E5%9B%9E/" title="意识之灵：自然选择与人的选择的终极轮回" class="dd-item"><a href="/02hj/004%E6%84%8F%E8%AF%86%E4%B9%8B%E7%81%B5%E8%87%AA%E7%84%B6%E9%80%89%E6%8B%A9%E4%B8%8E%E4%BA%BA%E7%9A%84%E9%80%89%E6%8B%A9%E7%9A%84%E7%BB%88%E6%9E%81%E8%BD%AE%E5%9B%9E/">意识之灵：自然选择与人的选择的终极轮回</a></li>
+          <li data-nav-id="/02hj/005%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%88%9B%E9%80%A0%E4%B8%80%E5%88%87%E5%BD%93ai%E6%88%90%E4%B8%BA%E7%8E%B0%E5%AE%9E%E7%9A%84%E7%94%BB%E7%AC%94%E4%BA%BA%E7%B1%BB%E5%B0%86%E4%BB%A5%E8%A8%80%E8%AF%AD%E5%88%9B%E9%80%A0%E4%B8%87%E7%89%A9/" title="自然语言创造一切——当AI成为现实的画笔，人类将以言语创造万物" class="dd-item"><a href="/02hj/005%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%88%9B%E9%80%A0%E4%B8%80%E5%88%87%E5%BD%93ai%E6%88%90%E4%B8%BA%E7%8E%B0%E5%AE%9E%E7%9A%84%E7%94%BB%E7%AC%94%E4%BA%BA%E7%B1%BB%E5%B0%86%E4%BB%A5%E8%A8%80%E8%AF%AD%E5%88%9B%E9%80%A0%E4%B8%87%E7%89%A9/">自然语言创造一切——当AI成为现实的画笔，人类将以言语创造万物</a></li>
+          <li data-nav-id="/02hj/006%E4%BB%8E%E6%97%A0%E5%B0%BD%E9%BB%91%E6%9A%97%E5%A4%84%E9%95%BF%E5%87%BA%E6%B0%B8%E6%81%92%E5%85%89%E6%98%8E%E5%BF%83%E4%B8%BA%E4%BB%80%E4%B9%88%E9%BB%91%E6%9A%97%E6%98%AF%E5%AE%87%E5%AE%99%E7%9A%84%E6%A0%B9%E6%9C%AC/" title="从无尽黑暗处，长出永恒光明心——为什么黑暗是宇宙的根本" class="dd-item"><a href="/02hj/006%E4%BB%8E%E6%97%A0%E5%B0%BD%E9%BB%91%E6%9A%97%E5%A4%84%E9%95%BF%E5%87%BA%E6%B0%B8%E6%81%92%E5%85%89%E6%98%8E%E5%BF%83%E4%B8%BA%E4%BB%80%E4%B9%88%E9%BB%91%E6%9A%97%E6%98%AF%E5%AE%87%E5%AE%99%E7%9A%84%E6%A0%B9%E6%9C%AC/">从无尽黑暗处，长出永恒光明心——为什么黑暗是宇宙的根本</a></li>
+          <li data-nav-id="/02hj/007%E4%BB%8E%E4%BA%92%E8%81%94%E7%BD%91%E7%A7%BB%E5%8A%A8%E4%BA%92%E8%81%94%E7%BD%91%E7%9C%8Bai%E6%B5%AA%E6%BD%AE%E4%B8%AD%E7%9A%84%E6%9C%BA%E4%BC%9A%E5%B8%8C%E6%9C%9B%E4%B8%8E%E6%81%90%E6%83%A7/" title="从互联网、移动互联网看AI浪潮中的机会，希望与恐惧" class="dd-item"><a href="/02hj/007%E4%BB%8E%E4%BA%92%E8%81%94%E7%BD%91%E7%A7%BB%E5%8A%A8%E4%BA%92%E8%81%94%E7%BD%91%E7%9C%8Bai%E6%B5%AA%E6%BD%AE%E4%B8%AD%E7%9A%84%E6%9C%BA%E4%BC%9A%E5%B8%8C%E6%9C%9B%E4%B8%8E%E6%81%90%E6%83%A7/">从互联网、移动互联网看AI浪潮中的机会，希望与恐惧</a></li>
+          <li data-nav-id="/02hj/008ai&#43;%E6%B8%B8%E6%88%8F%E4%BB%8E%E4%BB%A3%E7%A0%81%E5%82%80%E5%84%A1%E5%88%B0%E8%99%9A%E6%8B%9F%E7%A5%9E%E7%A5%87%E6%B8%B8%E6%88%8F%E5%BC%80%E5%A7%8B%E6%9C%AA%E6%9D%A5%E5%B7%B2%E6%9D%A5/" title="AI&#43;游戏，从代码傀儡到虚拟神祇，游戏开始，未来已来" class="dd-item active"><a href="/02hj/008ai&#43;%E6%B8%B8%E6%88%8F%E4%BB%8E%E4%BB%A3%E7%A0%81%E5%82%80%E5%84%A1%E5%88%B0%E8%99%9A%E6%8B%9F%E7%A5%9E%E7%A5%87%E6%B8%B8%E6%88%8F%E5%BC%80%E5%A7%8B%E6%9C%AA%E6%9D%A5%E5%B7%B2%E6%9D%A5/">AI&#43;游戏，从代码傀儡到虚拟神祇，游戏开始，未来已来</a></li>
+          <li data-nav-id="/02hj/009%E9%A9%AC%E6%96%AF%E5%85%8B%E5%AE%8F%E5%9B%BE%E8%AE%A1%E5%88%921-4%E4%B8%8B%E7%9A%84%E4%B8%96%E7%95%8C%E5%8F%98%E9%9D%A9%E4%B8%8E%E6%9C%AA%E6%9D%A5%E5%9B%BE%E6%99%AF/" title="马斯克宏图计划（1-4）下的世界变革与未来图景" class="dd-item"><a href="/02hj/009%E9%A9%AC%E6%96%AF%E5%85%8B%E5%AE%8F%E5%9B%BE%E8%AE%A1%E5%88%921-4%E4%B8%8B%E7%9A%84%E4%B8%96%E7%95%8C%E5%8F%98%E9%9D%A9%E4%B8%8E%E6%9C%AA%E6%9D%A5%E5%9B%BE%E6%99%AF/">马斯克宏图计划（1-4）下的世界变革与未来图景</a></li>
+          <li data-nav-id="/02hj/010%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%A6%81%E4%B8%8D%E8%A6%81%E5%81%9A%E6%88%90%E4%BA%BA%E5%BD%A2%E4%BB%8E%E7%94%9F%E7%89%A9%E8%BF%9B%E5%8C%96%E7%9C%8B%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%89%E8%AE%BA/" title="机器人要不要做成人形？从生物进化看人形机器人争论" class="dd-item"><a href="/02hj/010%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%A6%81%E4%B8%8D%E8%A6%81%E5%81%9A%E6%88%90%E4%BA%BA%E5%BD%A2%E4%BB%8E%E7%94%9F%E7%89%A9%E8%BF%9B%E5%8C%96%E7%9C%8B%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%89%E8%AE%BA/">机器人要不要做成人形？从生物进化看人形机器人争论</a></li></ul></li>
+          <li data-nav-id="/03mwyy/" title="明文音乐作品集" class="dd-item"><input type="checkbox" id="section-83d777b5d5988395208bd170360abdf7" class="toggle"/><label for="section-83d777b5d5988395208bd170360abdf7" ></label><a href="/03mwyy/">明文音乐作品集</a><ul>
+          <li data-nav-id="/03mwyy/02qdwn/" title="《情定威宁》" class="dd-item"><a href="/03mwyy/02qdwn/">《情定威宁》</a></li>
+          <li data-nav-id="/03mwyy/01ddj/" title="《玄》" class="dd-item"><a href="/03mwyy/01ddj/">《玄》</a></li></ul></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title"></div>
+          <ul>
+            <li><a class="padding" href="/about">关注我</a></li>
+          </ul>
+        </div>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                    <option id="zh-cn" value="/02hj/008ai&#43;%E6%B8%B8%E6%88%8F%E4%BB%8E%E4%BB%A3%E7%A0%81%E5%82%80%E5%84%A1%E5%88%B0%E8%99%9A%E6%8B%9F%E7%A5%9E%E7%A5%87%E6%B8%B8%E6%88%8F%E5%BC%80%E5%A7%8B%E6%9C%AA%E6%9D%A5%E5%B7%B2%E6%9D%A5/" selected></option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="black" value="black" selected>Black</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> 清理历史记录</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">       <p><a href="https://aiart.website/">🏠明文视界 AI 资源站 </a></p>
+      <p><a href="https://jupyter.fun/"> 🏠明文氛围编程</a></p>
+      <p><a href="https://wuhao.online/"> 🏠MWAI.Studio</a></p>
+      <p>©2025 <img src="/MW.png" ></a> 明文</a></p>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1757668563" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1757668563" defer></script>
+    <script src="/js/featherlight.min.js?1757668563" defer></script>
+    <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], 
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1757668563" defer></script>
+    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
+    </script>
+    <script src="https://unpkg.com/rapidoc/dist/rapidoc-min.js" defer></script>
+    <script>
+      window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
+    </script>
+    <script src="/js/theme.js?1757668563" defer></script>
+  </body>
+</html>

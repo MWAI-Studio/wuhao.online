@@ -8,7 +8,7 @@
     <language>zh-cn</language>
     <lastBuildDate>Tue, 15 Apr 2025 16:07:59 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>《道德经在的宇宙法则》</title>
+      <title>《道德经中的宇宙法则》</title>
       <link>/01ddj/</link>
       <pubDate>Tue, 15 Apr 2025 16:07:59 +0800</pubDate>
       <guid>/01ddj/</guid>
@@ -28,7 +28,7 @@
       <link>/02hj/</link>
       <pubDate>Tue, 15 Apr 2025 16:07:59 +0800</pubDate>
       <guid>/02hj/</guid>
-      <description>&lt;h1 id=&#34;目录&#34;&gt;目录&lt;/h1&gt;
+      <description>&lt;h2 id=&#34;目录&#34;&gt;目录&lt;/h2&gt;
 
 &lt;ul class=&#34;children children-li children-sort-weight&#34;&gt;
 &lt;li&gt;&lt;a href=&#34;/02hj/001%E5%8D%87%E7%BA%A7%E5%B9%BB%E8%A7%89%E5%9C%A8%E5%AD%98%E5%9C%A8%E8%A3%82%E7%BC%9D%E4%B8%AD%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%B8%8Eai%E8%81%94%E6%89%8B%E5%88%9B%E4%B8%96/&#34; &gt;升级幻觉，在存在裂缝中，我们如何与AI联手创世&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
@@ -48,7 +48,15 @@
       <link>/03mwyy/</link>
       <pubDate>Tue, 15 Apr 2025 16:07:59 +0800</pubDate>
       <guid>/03mwyy/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;/03mwyy/01ddj&#34; style=&#34;display:inline-block; margin-right:8px;&#34;&gt;
+      <description>&lt;ul&gt;
+&lt;li&gt;网易云音乐人&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://music.163.com/#/artist?id=98722045&#34;&gt;https://music.163.com/#/artist?id=98722045&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;腾讯音乐人&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://y.qq.com/n/ryqq/singer/003oB8xI2ZvkgO&#34;&gt;https://y.qq.com/n/ryqq/singer/003oB8xI2ZvkgO&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/03mwyy/01ddj&#34; style=&#34;display:inline-block; margin-right:8px;&#34;&gt;
   &lt;img src=&#34;/images/ddj.webp&#34; 
        alt=&#34;&#34; 
        style=&#34;width: 180px !important; 
@@ -65,7 +73,80 @@
               height: auto; 
               display: block;&#34;
   /&gt;
-&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/a&gt;&lt;/p&gt;
+&lt;!-- 
+
+
+&lt;div class=&#34;aspect-ratio&#34; style=&#34;max-width: 100%; margin: 1rem auto;&#34;&gt;
+  &lt;iframe
+    src=&#34;https://player.bilibili.com/player.html?bvid=BV1jz3tzSEL7&amp;page=1&amp;high_quality=1&amp;danmaku=0&amp;autoplay=0&#34;
+    scrolling=&#34;no&#34;
+    frameborder=&#34;0&#34;
+    allowfullscreen=&#34;true&#34;
+    style=&#34;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  .aspect-ratio {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+&lt;/style&gt;
+
+
+
+&lt;div class=&#34;aspect-ratio&#34; style=&#34;max-width: 640px; margin: 1rem auto;&#34;&gt;
+  &lt;iframe
+    src=&#34;https://player.bilibili.com/player.html?bvid=BV1jz3tzSEL7&amp;page=1&amp;high_quality=1&amp;danmaku=0&amp;autoplay=0&#34;
+    scrolling=&#34;no&#34;
+    frameborder=&#34;0&#34;
+    allowfullscreen=&#34;true&#34;
+    style=&#34;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  .aspect-ratio {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+  }
+&lt;/style&gt;
+
+
+
+&lt;div class=&#34;aspect-ratio&#34; style=&#34;max-width: 90%; margin: 1rem auto;&#34;&gt;
+  &lt;iframe
+    src=&#34;https://player.bilibili.com/player.html?bvid=BV1jz3tzSEL7&amp;page=1&amp;high_quality=1&amp;danmaku=0&amp;autoplay=0&#34;
+    scrolling=&#34;no&#34;
+    frameborder=&#34;0&#34;
+    allowfullscreen=&#34;true&#34;
+    style=&#34;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  .aspect-ratio {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+&lt;/style&gt; --&gt;</description>
+    </item>
+    <item>
+      <title>《明文视界观》</title>
+      <link>/04mwsjg/</link>
+      <pubDate>Tue, 15 Apr 2025 16:07:59 +0800</pubDate>
+      <guid>/04mwsjg/</guid>
+      <description>&lt;h2 id=&#34;目录&#34;&gt;目录&lt;/h2&gt;
+
+&lt;ul class=&#34;children children-li children-sort-weight&#34;&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
